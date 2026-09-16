@@ -95,12 +95,12 @@ basis for the synthetic data generation and classification experiments.
 
 ```text
 .
-├── DCGAN_.ipynb
-├── Diffusion_.ipynb
-├── VAE_PEC.ipynb
-├── vit_.ipynb
-├── Gen AI_Report - Copy.pdf
-├── Synthetic_data_generation_ppt.pdf
+├── DCGAN.ipynb
+├── Diffusion.ipynb
+├── VAE.ipynb
+├── Vit_Classifier.ipynb
+├── Project_Report - Copy.pdf
+├── Project_Presentation.pdf
 └── README.md
 ```
 
