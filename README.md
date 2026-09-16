@@ -132,6 +132,36 @@ synthetic images for the classification task.
 
 ---
 
+## Results
+
+The project evaluates synthetic image generation using multiple image-quality and
+distribution-related metrics.
+
+### Diffusion Model
+
+The best diffusion model checkpoint was obtained at **epoch 90**.
+
+| Metric | Score |
+|---|---:|
+| SSIM | 0.2786 |
+| MS-SSIM | 0.3326 |
+| LPIPS | 0.5005 |
+| Inception Score | 2.8207 ± 0.0724 |
+
+The diffusion experiment was evaluated using generated and real skin-disease images.
+
+### Generated Data
+
+The VAE workflow generated **1,000 synthetic images** for further analysis and evaluation.
+
+The diffusion workflow also used an augmented dataset of **20,000 images**, with a
+**1,500-image subset** used for the training experiment.
+
+> Note: These metrics are experimental results from the project notebooks and are intended
+> for comparative analysis of the generated data rather than clinical evaluation.
+
+---
+
 ## Research
 
 **Generative AI based Synthetic Data Generation for Skin Disease Classification using VAE, GAN and Diffusion Models**
