@@ -162,6 +162,20 @@ The diffusion workflow also used an augmented dataset of **20,000 images**, with
 
 ---
 
+## Generated Samples
+
+### VAE
+
+![VAE Generated Images](assets/vae-generated-images.png)
+
+### DCGAN
+
+![DCGAN Generated Images](assets/dcgan-generated-images.png)
+
+### Diffusion Model
+
+![Diffusion Generated Images](assets/diffusion-generated-images.png)
+
 ## Research
 
 **Generative AI based Synthetic Data Generation for Skin Disease Classification using VAE, GAN and Diffusion Models**
