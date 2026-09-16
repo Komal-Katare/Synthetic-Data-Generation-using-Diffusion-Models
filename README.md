@@ -102,3 +102,67 @@ basis for the synthetic data generation and classification experiments.
 ├── Gen AI_Report - Copy.pdf
 ├── Synthetic_data_generation_ppt.pdf
 └── README.md
+```
+
+---
+## How the Project Works
+
+### Step 1 — Dataset
+
+The skin-disease dataset is prepared and processed for model training.
+
+### Step 2 — Synthetic Data Generation
+
+Multiple generative models are explored:
+
+- VAE
+- DCGAN
+- Diffusion Model
+
+These models are used to generate synthetic skin-disease images.
+
+### Step 3 — Image Classification
+
+A Vision Transformer (ViT) is used to perform downstream image classification.
+
+### Step 4 — Evaluation
+
+The generated data and classification pipeline are evaluated to investigate the usefulness of
+synthetic images for the classification task.
+
+---
+
+## Research
+
+**Generative AI based Synthetic Data Generation for Skin Disease Classification using VAE, GAN and Diffusion Models**
+
+**Conference:** I3CTCON IEEE Conference
+
+### Key Areas
+
+- Generative AI
+- Deep Learning
+- Machine Learning
+- Medical Image Processing
+- Skin Disease Classification
+
+---
+
+## Key Learning
+
+This project provided hands-on experience with multiple Generative AI approaches and their
+application to medical image generation.
+
+It also involved understanding how synthetic data can be incorporated into a downstream
+computer-vision classification workflow.
+
+---
+
+## Future Improvements
+
+- Improve synthetic image quality
+- Perform more extensive quantitative evaluation
+- Compare additional diffusion architectures
+- Expand the classification experiments
+- Build an interactive inference interface
+- Deploy the generation and classification pipeline as an API
