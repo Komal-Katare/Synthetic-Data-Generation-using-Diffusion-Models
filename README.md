@@ -1,5 +1,29 @@
 # Synthetic Data Generation for Skin Disease Classification
 
+<p align="center">
+  <b>Generative AI • Medical Computer Vision • Synthetic Data • Skin Disease Classification</b>
+</p>
+
+<p align="center">
+  A deep learning pipeline exploring VAE, DCGAN, and Diffusion Models
+  for synthetic skin-disease image generation, followed by
+  Vision Transformer (ViT) based classification.
+</p>
+
+---
+
+## 🧠 Project Highlights
+
+- 🧬 Synthetic medical-image generation using **VAE, DCGAN, and Diffusion Models**
+- 🖼️ Generation and evaluation of synthetic skin-lesion images
+- 🔬 Image-quality evaluation using **SSIM, MS-SSIM, and LPIPS**
+- 📊 GAN evaluation using **Inception Score**
+- 🤖 Downstream classification using **Vision Transformer (ViT)**
+- 🏥 Experiments based on the **HAM10000 skin-lesion dataset**
+- ☁️ Experiments performed using **Google Colab with NVIDIA T4 GPU**
+
+---
+
 ## Overview
 
 This project explores the use of Generative AI and deep learning models to generate synthetic
