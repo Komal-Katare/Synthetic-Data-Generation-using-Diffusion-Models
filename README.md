@@ -5,7 +5,7 @@
 This project explores the use of Generative AI and deep learning models to generate synthetic
 skin-disease images and investigate their usefulness for downstream disease classification.
 
-The project compares multiple generative approaches:
+The project explores multiple generative approaches:
 
 - Variational Autoencoder (VAE)
 - Deep Convolutional GAN (DCGAN)
@@ -98,8 +98,8 @@ basis for the synthetic data generation and classification experiments.
 ├── DCGAN.ipynb
 ├── Diffusion.ipynb
 ├── VAE.ipynb
-├── Vit_Classifier.ipynb
-├── Project_Report - Copy.pdf
+├── ViT_Classifier.ipynb
+├── Project_Report.pdf
 ├── Project_Presentation.pdf
 └── README.md
 ```
@@ -134,8 +134,8 @@ synthetic images for the classification task.
 
 ## Results
 
-The project evaluates synthetic image generation using multiple image-quality and
-distribution-related metrics.
+The project evaluates synthetic image generation using multiple image-quality
+and distribution-related metrics.
 
 ### Diffusion Model
 
@@ -146,9 +146,12 @@ The best diffusion model checkpoint was obtained at **epoch 90**.
 | SSIM | 0.2786 |
 | MS-SSIM | 0.3326 |
 | LPIPS | 0.5005 |
-| Inception Score | 2.8207 ± 0.0724 |
 
 The diffusion experiment was evaluated using generated and real skin-disease images.
+
+### GAN
+
+The GAN experiment achieved an **Inception Score of 2.8207 ± 0.0724**.
 
 ### Generated Data
 
@@ -157,8 +160,49 @@ The VAE workflow generated **1,000 synthetic images** for further analysis and e
 The diffusion workflow also used an augmented dataset of **20,000 images**, with a
 **1,500-image subset** used for the training experiment.
 
-> Note: These metrics are experimental results from the project notebooks and are intended
+> **Note:** These metrics are experimental results from the project notebooks and are intended
 > for comparative analysis of the generated data rather than clinical evaluation.
+---
+
+## Tech Stack
+
+### Machine Learning & Deep Learning
+- Python
+- PyTorch
+- TensorFlow
+- Hugging Face Diffusers
+
+### Generative Models
+- Variational Autoencoder (VAE)
+- DCGAN
+- Diffusion Models
+
+### Computer Vision
+- Vision Transformer (ViT)
+- Image Classification
+- SSIM
+- MS-SSIM
+- LPIPS
+- Inception Score
+
+### Dataset
+- HAM10000 Skin Lesion Dataset
+
+### Development Environment
+- Google Colab
+- NVIDIA T4 GPU
+- Google Drive
+
+---
+
+## Notebooks
+
+| Notebook | Description |
+|---|---|
+| [DCGAN](DCGAN.ipynb) | DCGAN-based synthetic skin-disease image generation |
+| [Diffusion](Diffusion.ipynb) | Diffusion-based synthetic image generation |
+| [VAE](VAE.ipynb) | VAE-based synthetic image generation |
+| [ViT Classifier](ViT_Classifier.ipynb) | Vision Transformer-based image classification |
 
 ---
 
